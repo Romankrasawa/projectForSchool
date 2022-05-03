@@ -6,50 +6,134 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>402</width>
+    <width>447</width>
     <height>600</height>
    </rect>
-  </property>
-  <property name="font">
-   <font>
-    <pointsize>72</pointsize>
-    <weight>75</weight>
-    <bold>true</bold>
-   </font>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="gridLayoutWidget">
+   <widget class="QTextEdit" name="field">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>170</y>
-      <width>311</width>
-      <height>281</height>
+      <x>60</x>
+      <y>180</y>
+      <width>321</width>
+      <height>271</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
-       <property name="font">
-        <font>
-         <pointsize>72</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color:rgb(255, 170, 255);
-color:black;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="font">
+     <font>
+      <family>Noto Serif Telugu</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="size">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Open Sans</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Введіть розмір для поля</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="generateField">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Згенерувати</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>371</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ГРА З БУКВАМИ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="letter">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>460</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Введіть букву для переміщення</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="move">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>520</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Переміститися</string>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
