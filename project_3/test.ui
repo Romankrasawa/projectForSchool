@@ -98,7 +98,7 @@
    <widget class="QLineEdit" name="letter">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>70</x>
       <y>460</y>
       <width>271</width>
       <height>51</height>
@@ -118,7 +118,7 @@
    <widget class="QPushButton" name="move">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>230</x>
       <y>520</y>
       <width>171</width>
       <height>51</height>
@@ -133,6 +133,36 @@
     </property>
     <property name="text">
      <string>Переміститися</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="moves">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>530</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>520</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Кількість ходів</string>
     </property>
    </widget>
   </widget>
