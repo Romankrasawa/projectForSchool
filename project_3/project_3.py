@@ -89,6 +89,7 @@ def move():
                 off_game = True
     except:
         pass
+ui.moves.setRange(0,100)
 ui.generateField.clicked.connect(generateField)
 ui.move.clicked.connect(move)
 
