@@ -66,7 +66,7 @@ def move():
             nearCord = [[cord[0], cord[1] + 1], [cord[0], cord[1] - 1], [cord[0] + 1, cord[1] + 1],[cord[0] - 1, cord[1] + 1], [cord[0] - 1, cord[1] - 1], [cord[0] + 1, cord[1] - 1],[cord[0] + 1, cord[1]], [cord[0] - 1, cord[1]]]
             for i in range(8):
                 try:
-                    if field[nearCord[i][0]][nearCord[i][1]] == letter:
+                    if field[nearCord[i][0]][nearCord[i][1]] == letter and nearCord[i][0] >= 0 and nearCord[i][1] >= 0:
                         field[nearCord[i][0]][nearCord[i][1]], field[cord[0]][cord[1]] = field[cord[0]][cord[1]],field[nearCord[i][0]][nearCord[i][1]]
                         cord = nearCord[i]
                         break
