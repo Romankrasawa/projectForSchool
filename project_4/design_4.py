@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/roman/PycharmProjects/pythonProject/project_4/test.ui'
+# Form implementation generated from reading ui file '/home/roman/PycharmProjects/pythonProject/project_4/design_1.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.6
 #

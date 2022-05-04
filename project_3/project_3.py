@@ -1,5 +1,5 @@
 import random
-from test import *
+from design_3 import *
 import sys
 from PyQt5.QtWidgets import QMessageBox
 
@@ -12,14 +12,14 @@ size = 0
 alphabet = "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
 field = []
 cord = [0,0]
-off_game =True
+off_game = True
 moves = 0
 
 def generateField():
     global off_game,field,size,cord, moves
     try:
-        moves = ui.moves.value()
-        if off_game and moves>0:
+        if off_game and ui.moves.value()>int(ui.size.text()):
+            moves = ui.moves.value()
             size = int(ui.size.text())
             if size > 1:
                 field = [[alphabet[random.randint(0, len(alphabet) - 1)] for i in range(size)] for i in range(size)]
@@ -41,23 +41,20 @@ def generateField():
         else:
             msg = QMessageBox()
             msg.setWindowTitle("Повідомлення")
-            msg.setText("Щоб почати гру вам потрібно вибрати приємлиму кількість ходів")
+            msg.setText("Щоб почати гру вам потрібно вибрати приємлиму кількість ходів(Більшу за розмір поля)")
             msg.exec_()
+            ui.moves.setValue(int(ui.size.text())+1)
     except:
         pass
 
 def move():
     global cord,size,field,off_game,moves
     try:
-        if moves == 0:
+        if field == []:
             msg = QMessageBox()
-            msg.setWindowTitle("Ви програли")
-            msg.setText("Ваші ходи вичерпані спробуйте заново заново")
+            msg.setWindowTitle("Повідомлення")
+            msg.setText("  Зпочатку згенеруйте поле\t")
             msg.exec_()
-            cord = [0, 0]
-            ui.field.clear()
-            ui.letter.clear()
-            off_game = True
         else:
             letter = ui.letter.text()
             ui.letter.clear()
@@ -80,10 +77,19 @@ def move():
             if cord == [size - 1, size - 1]:
                 msg = QMessageBox()
                 msg.setWindowTitle("Congratulations")
-                msg.setText("Мої вітання ви пройшли тепер ви можете почати заново")
+                msg.setText("Мої вітання ви пройшли тепер ви можете почати заново!!!")
                 msg.exec_()
                 cord = [0, 0]
                 ui.moves.setValue(0)
+                ui.field.clear()
+                ui.letter.clear()
+                off_game = True
+            elif moves == 0:
+                msg = QMessageBox()
+                msg.setWindowTitle("Ви програли")
+                msg.setText("Ваші ходи вичерпані спробуйте заново заново")
+                msg.exec_()
+                cord = [0, 0]
                 ui.field.clear()
                 ui.letter.clear()
                 off_game = True

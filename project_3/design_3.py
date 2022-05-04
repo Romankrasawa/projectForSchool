@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/roman/PycharmProjects/pythonProject/project_3/test.ui'
+# Form implementation generated from reading ui file '/home/roman/PycharmProjects/pythonProject/project_3/design_1.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.6
 #
@@ -91,7 +91,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.size.setPlaceholderText(_translate("MainWindow", "Введіть розмір для поля"))
         self.generateField.setText(_translate("MainWindow", "Згенерувати"))
-        self.label.setText(_translate("MainWindow", "ГРА З БУКВАМИ"))
+        self.label.setText(_translate("MainWindow", "БУКВОВИЙ ЛАБІРИНТ"))
         self.letter.setPlaceholderText(_translate("MainWindow", "Введіть букву для переміщення"))
         self.move.setText(_translate("MainWindow", "Переміститися"))
         self.label_2.setText(_translate("MainWindow", "Кількість ходів"))

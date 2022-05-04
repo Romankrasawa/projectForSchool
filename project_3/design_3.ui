@@ -92,7 +92,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ГРА З БУКВАМИ</string>
+     <string>БУКВОВИЙ ЛАБІРИНТ</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="letter">
