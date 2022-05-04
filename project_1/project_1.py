@@ -24,7 +24,7 @@ def startGame():
     ui.startMenu.hide()
     index = random.randint(0, len(data_base.keys()) - 1)
     words = ["".join(["_ " for i in list(data_base.values())[index]]), " ".join(list(data_base.values())[index])]
-    ui.pidkazka.setText(str(list(data_base.keys())[index]))
+    ui.pidkazka.setText(str(list(data_base.keys())[index]).capitalize())
     attempt = len(list(set(list(words[1])))) + 2
     ui.lineEdit.setText(str(attempt))
     ui.word.setText(words[0])
