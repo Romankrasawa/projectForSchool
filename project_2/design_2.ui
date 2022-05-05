@@ -13,6 +13,11 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#E9D5DA;
+font: 50 13pt &quot;Yu Gothic Medium&quot;;
+color:white;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="cript">
     <property name="geometry">
@@ -25,10 +30,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(130, 115, 151);</string>
     </property>
     <property name="text">
      <string>Шифрування</string>
@@ -45,10 +55,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(130, 115, 151);</string>
     </property>
     <property name="text">
      <string>Дешифрування</string>
@@ -65,9 +80,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -85,9 +102,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -105,9 +124,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -125,10 +146,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="placeholderText">
      <string>Введіть слово</string>
@@ -145,8 +171,11 @@
     </property>
     <property name="font">
      <font>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="placeholderText">
@@ -164,9 +193,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
    </widget>
@@ -181,9 +212,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -201,9 +234,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -221,10 +256,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(130, 115, 151);</string>
     </property>
     <property name="text">
      <string>PushButton</string>
@@ -241,9 +281,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Yu Gothic Medium</family>
+      <pointsize>13</pointsize>
+      <weight>6</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">

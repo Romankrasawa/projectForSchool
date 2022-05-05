@@ -15,12 +15,12 @@ cesar = ""
 def chooseCesar():
     global cesar
     cesar = True
-    ui.key.setPlaceholderText("Введіть ключ(1-32)")
+    ui.lineEdit_2.setPlaceholderText("Введіть ключ(1-32)")
 
 def chooseVinjern():
     global cesar
     cesar = False
-    ui.key.setPlaceholderText("Введіть ключ-cлово")
+    ui.lineEdit_2.setPlaceholderText("Введіть ключ-cлово")
 
 def criptScript():
     global cript
@@ -39,7 +39,7 @@ def doResult():
     try:
         alphabet = "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
         word = ui.word.text().lower()
-        key = ui.key.text().lower()
+        key = ui.lineEdit_2.text().lower()
         if all(list(map(lambda x:x in alphabet, list(word)))) and word != "":
             if cript:
                 if cesar in [True,False]:

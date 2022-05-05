@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(233, 213, 218);
+font: 16pt &quot;Segoe UI&quot;;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="oldNum">
     <property name="geometry">
@@ -25,9 +29,11 @@
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI</family>
       <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="placeholderText">
@@ -45,9 +51,11 @@
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI</family>
       <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="placeholderText">
@@ -65,9 +73,11 @@
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI</family>
       <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="placeholderText">
@@ -85,9 +95,11 @@
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI</family>
       <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="placeholderText">
@@ -105,10 +117,15 @@
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI</family>
       <pointsize>24</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string>КОНВЕРТЕР ЧИСЕЛ</string>
@@ -125,9 +142,11 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -135,6 +154,10 @@
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(130, 115, 151);
+color:white;</string>
     </property>
     <property name="text">
      <string>Конвертувати</string>
